@@ -6,10 +6,6 @@ ENDPOINT = "https://api.giphy.com/v1/gifs/trending"
 params = {"api_key": API_KEY, "limit": 3, "rating": "g"}
 response = requests.get(ENDPOINT, params=params)
 
-
-#status_code = response.status_code
-#print(status_code)
-
 response = response.json()
 
 for gif in response["data"]:
