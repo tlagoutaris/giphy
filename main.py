@@ -1,6 +1,6 @@
 import requests
 
-API_KEY = "Sx91ZEFvgP4O5AwnGu6x2XgUam9GcB6q"
+API_KEY = ""
 ENDPOINT = "https://api.giphy.com/v1/gifs/trending"
 
 params = {"api_key": API_KEY, "limit": 3, "rating": "g"}
